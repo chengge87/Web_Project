@@ -1,0 +1,112 @@
+@charset "utf-8";
+.article_top_nav {
+height: 30px;
+line-height: 30px;
+color: #444;
+padding-left: 5px;
+}
+.article_top {
+height: 40px;
+line-height: 40px;
+}
+.article_top_title {
+font-size: 16px;
+padding-left: 5px;
+width: 410px;
+color: #555;
+line-height: 40px;
+float: left;
+}
+.article_top_other div {
+float: right;
+padding-right: 5px;
+}
+.article_top_other span {
+font-size: 14px;
+display: block;
+margin-left: 5px;
+float: left;
+}
+.read{
+color:#4658E5;
+}
+.recommend{
+color:#2C93CB;
+}
+.comment{
+color:#7CCB2C;
+}
+.article_info {
+padding: 0px 5px 0px 5px;
+color: #666;
+line-height: 30px;
+}
+.article_content {
+padding: 5px;
+overflow: hidden;
+word-break: break-all;
+word-wrap: break-word;
+}
+
+.next {
+height: 30px;
+line-height: 30px;
+background: #FCEADB;
+padding: 0px 5px 0px 5px;
+margin-top: 20px;
+}
+.next span {
+display: block;
+float: left;
+width: 315px;
+}
+.comment_title {
+height: 35px;
+line-height: 35px;
+padding: 0px 5px 0px 5px;
+background: #fff;
+color: #222;
+border-bottom: 3px solid #222;
+}
+.recommend_btn {
+background: #333;
+padding: 3px 7px 3px 7px;
+color: #fff;
+}
+.comment_list_list {
+background: #fff;
+padding: 5px;
+}
+.comment_list_list ul li {
+line-height: 30px;
+border-bottom: 1px dashed #ccc;
+color: #333;
+}
+.commonpost {
+background: #fff;
+padding: 5px;
+margin-top: 10px;
+}
+.commonpost input[type=text] {
+border: 1px solid #ccc;
+height: 25px;
+width: 270px;
+}
+.commonpost textarea {
+border: 1px solid #ccc;
+resize: none;
+overflow: auto;
+width: 600px; height: 100px; margin: 0px;
+}
+.reply {
+float: right;
+padding-right: 5px;
+color: #364BC6;
+}
+.reply_btn {
+color: red;
+height: 24px;
+padding: 0 5px;
+background: grey;
+cursor: pointer;
+}

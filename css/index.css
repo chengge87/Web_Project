@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+#slide {
+    position: relative;
+    float: left;
+    width: 640px;
+    height: 320px;
+}
+#slide ul li {
+    width: 640px;
+    height: 320px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+#slide div {
+    height: 32px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    zoom: 1;
+}
+#slide span {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    margin: 2px 2px;
+    background: #666;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    font-family: arial;
+}
+#slide span a {
+    color: #fff;
+}
+#slide span.curr, #slide span.hover {
+    background: #000;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.act {
+    height: 110px;
+    width: 640px;
+    border-bottom: 2px #0072AE solid;
+    margin-top: 5px;
+    clear: both;
+    border-bottom-color: rgb(71, 24, 144);
+}
+.act_left {
+    float: left;
+    height: 100%;
+    width: 510px;
+    margin-left: 15px;
+}
+
+.act_left h3, .act_left div {
+    margin-top: 15px;
+}
+.act_title a {
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+    color: rgb(96, 89, 8);
+}
+.act_tag span {
+    padding: 3px 10px 3px 10px;
+    background: #f1f1f1;
+    margin-left: 10px;
+    line-height: 22px;
+}
+.act_tag span a{
+    color: rgb(68, 22, 84);
+}
+.act_right {
+    float: right;
+    width: 100px;
+    height: 100%;
+    margin-top: 5px;
+}
+.act_right div {
+    padding-right: 10px;
+}
+.act_right span {
+    float: left;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    text-align: right;
+}
+.act_read {
+    width: 65px;
+    font-weight: bold;
+    color: #DB6212;
+    padding-right: 5px;
+    display: block;
+}
+.cut_page {
+    margin-top: 20px;
+    height: 30px;
+}
+.cut_page a {
+    display: block;
+    float: left;
+    height: 22px;
+    margin-left: 5px;
+    line-height: 22px;
+    color: #000;
+    padding-left: 7px;
+    border: 1px solid #000;
+    padding-right: 7px;
+    background: #fff;
+}
+.cut_page span {
+    display: block;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 20px;
+}

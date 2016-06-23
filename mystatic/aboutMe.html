@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>关于我</title>
+	<link rel="stylesheet" type="text/css" href="http://120.27.100.77/static/css/aboutme.css">
+	<script type="text/javascript" src="http://120.27.100.77/static/js/html5shiv.js"></script>
+	<script type="text/javascript" src="http://120.27.100.77/static/js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="http://120.27.100.77/static/js/aboutme.js"></script>
+	<script type="text/javascript" src="http://120.27.100.77/static/js/canvas.js"></script>
+</head>
+<body>
+	<div class="down"></div>
+	<div class="up"></div>
+	<nav id="top_naviagtion">
+		<ul>
+			<li><a href="#intro" class="nav_link"><span class="dot"></span><span class="description">个人简介</span></a></li>
+			<li><a href="#skill" class="nav_link"><span class="dot"></span><span class="description">专业技能</span></a></li>
+			<li><a href="#history" class="nav_link"><span class="dot"></span><span class="description">掌握技能</span></a></li>
+			<li><a href="#project" class="nav_link"><span class="dot"></span><span class="description">项目介绍</span></a></li>
+			<li><a href="#contact" class="nav_link"><span class="dot"></span><span class="description">联系方式</span></a></li>
+		</ul>
+	</nav>
+	<section id="intro">
+		<h2 class="title">个人简介</h2>
+		<div id="information">
+			<pre><code>
+{
+    "name" : "黄昌鑫",
+    "age"  : 22,
+    "description" : "大三，热爱互联网！关注web开发，喜欢
+                     把想法变成现实，喜欢接地气的代码。。。",
+    "address" : "xi'an,shannxi province",
+    "university" : "xidian university",
+    "contact" : {
+	    "E-mail" : "2216649754@qq.com",
+	    "cell-phone" : "18710946569",
+	    "github" : "https://github.com/huangchangxin",  
+	    "blog" : "120.27.100.77"
+    }
+}
+			</code></pre>
+		</div>
+	</section>
+	<!-- 专业技能 -->
+	<section id="skill">
+		<h2 class="title">自我评价</h2>
+		<div class="canvasContainer">
+			<canvas width="600" height="400">
+			</canvas>
+			<div class="UI">
+				<div class="button">			
+				</div>
+			</div>
+			<div class="control">
+				<a class="stop">stop</a>
+				<a class="again">play again</a>
+			</div>
+		</div>
+	</section>
+	<!-- 知识点 -->
+	<section id="history">
+		<h2 class="title">掌握技能</h2>
+		<div class="skill_content clearfix">
+			<div class="knowledge">
+				<h3>Conception</h3>
+				<ul>
+					<li>面向对象</li>
+					<li>多线程</li>
+					<li>Restful</li>
+					<li>设计模式</li>
+				</ul>
+			</div>
+			<div class="knowledge">
+				<h3>Language</h3>
+				<ul>
+					<li>java</li>
+					<li>JavaScript</li>
+					<li>html,css</li>
+					<li>bash</li>
+				</ul>
+			</div>
+			<div class="knowledge">
+				<h3>Develop Skill</h3>
+				<ul>
+					<li>spring</li>
+					<li>jQuery</li>
+					<li>Ajax</li>
+					<li>jvm</li>
+				</ul>
+			</div>
+			<div class="knowledge">
+				<h3>Others</h3>
+				<ul>
+					<li>mysql</li>
+					<li>mybatis</li>
+					<li>vim</li>
+					<li>...</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- 项目介绍 -->
+	<section id="project">
+		<h2  class="title">项目介绍</h2>
+		<div class="project_content clearfix" style="top: 16%;">
+			<div class="project_intro" id="zhiyue">
+				<h3>
+            		323网上电子商城(实验室项目)
+          		</h3>
+          		<p>
+            		负责编写后端代码，完成了商品管理、订单管理、商品筛选、商品详情页、个人中心、提交订单页、购物车等模块的开发。项目使用springmvc+spring+mybits框架搭建，用activiti实现订单的流转，用maven管理，用svn做版本控制，特色在于用freemarker实现页面静态化，tomcat集群部署，用nginx实现负载均衡和静态文件的快速访问，用cxf实现前后台的通信，用solr实现商品的快速搜索，用redis做缓存和管理session，难点在于数据库表的设计，并发的控制。
+          		</p>
+			</div>
+			<div class="project_intro" id="zhiyueAndroid">
+				<h3>简陋的javaweb框架</h3>
+		        <p>
+		            出于对spring，mybits等开源框架的好奇，自己阅读了部分源码，并模仿它们实现了自己简漏的mvc，Ioc，DI，Aop，orm，事务处理等功能。通过该项目加深了对模板方法，责任链，工厂方法等设计模式的理解。
+		        </p>
+			</div>
+			<div class="project_intro" id="zhiyueAndroid">
+				<h3>个人简陋的博客</h3>
+		        <p>
+		            第一次参与前端编码，主要用来锻炼自己整站编码的能力，目前博客功能还很单一，编码也有很多地方不合理，需要自己不断的学习来慢慢改进，博客使用的是jquery类库，目前自己也在模仿jquery来编写博客的js类库
+		        </p>
+			</div>
+		</div>
+	</section>
+	<!-- 联系方式 -->
+	<footer>
+		<section id="contact">
+		<p class="thx">谢谢！！！</p>
+		<a href="http://120.27.100.77/mystatic/resume.html" class="resume">我的简历</a></br>
+		<a href="/" target="_blank" class="index">返回博客首页</a></p>
+	</section>
+	</footer>
+	
+</body>
+</html>

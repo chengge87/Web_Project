@@ -1,0 +1,276 @@
+@charset "utf-8";
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+header {
+    height: 90px;
+}
+.top_top {
+    height: 25px;
+    line-height: 25px;
+}
+.top_content {
+    height: 75px;
+}
+.logo {
+    height: 73px;
+    width: 91px;
+}
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/logo.jpg");
+    text-indent: -10000px;
+}
+.myheart {
+    width: 200px;
+    height: 70px;
+    color: #838383;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: cursive;
+}
+.search {
+    margin-right: 200px;
+    position: relative;
+}
+.search .search_key {
+    width: 230px;
+    height: 28px;
+    border: 1px solid #333;
+    color: grey;
+}
+.search .search_btn {
+    width: 80px;
+    height: 30px;
+    background: #111;;
+    vertical-align: top;
+    color: rgb(255, 255, 255);
+
+    cursor: pointer;
+}
+.search .hot_tag {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+/* 导航栏 */
+nav {
+    margin-top: 8px;
+    height: 40px;
+    background: #111;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    transition:all .5s;
+}
+nav ul li .one {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0 80px;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    z-index: 1001;
+}
+nav ul li ul li {
+    float:none;
+}
+nav ul li ul li a {
+    display:block;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    color: rgb(104, 104, 104);
+    background-color: #111;
+}
+nav ul li ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+section.content:after {
+content: '';
+display: block;
+clear: both;
+}
+section.content {
+	zoom:1;
+}
+.content_left {
+    width: 640px;
+    float: left;
+    background: #fff;
+    border-bottom: 3px solid #000;
+}
+.content_right {
+    width: 330px;
+    float: right;
+    background: #fff;
+}
+.act_top_tab {
+    height: 27px;
+    border-bottom: 3px solid #ccc;
+    background-position: bottom;
+    cursor: pointer;
+    line-height: 30px;
+}
+.act_top_tab ul li {
+    float: left;
+    width: 90px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #222;
+    text-align: center;
+}
+.act_top_tab_on {
+    height: 27px;
+    border-bottom: 3px solid #333;
+    background-position: bottom;
+
+}
+.act_top_list ul li {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.act_top_list ul li a {
+    overflow: hidden;
+    max-width: 260px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+    float: left;
+    /*width: 100%;*/
+}
+.act_top_list ul li span {
+    line-height: 30px;
+    float: right;
+    width: 50px;
+    white-space: nowrap;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 5px;
+}
+.tags_list {
+    margin-top: 5px;
+    background: #fff;
+    overflow: hidden;
+}
+.tags_list a {
+    text-align: center;
+    background: #f1f1f1;
+    color: #333;
+    display: block;
+    float: left;
+    margin: 3px 3px 3px 3px;
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    line-height: 20px;
+    color: rgb(81, 151, 0);
+}
+.act_top {
+    background: #fff;
+}
+.links {
+    background: #fff;
+    overflow: hidden;
+    padding: 5px;
+    clear: both;
+}
+.links a {
+    display: block;
+    float: left;
+    height: 30x;
+    line-height: 30px;
+    width: 103px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(22, 133, 73);
+}
+.bottom {
+    height: 50px;
+    background: #888;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom_content {
+    width: 980px;
+    line-height: 50px;
+    margin: 0px auto;
+    color: #fff;
+}
+.back{
+    width: 60px;
+    height: 60px;
+    background: #999;
+    text-align: center;
+    line-height: 60px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.tab th,.tab td {
+    border: 1px solid #99b0da;
+}
+
+.tab th {
+    height: 30px;
+    font-size: 14px;
+    background: #dbe3fa;
+}
+
+.tab td {
+    height: 28px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.art_header {
+    height: 100px;
+    position: relative;
+    width: 100%;
+}
+
+.art_header font {
+    position: absolute;
+    left: 44%;
+    bottom: 4px;
+    font-size: 30px;
+}
+
+.art_header a {
+    position: absolute;
+    right: 50px;
+    bottom: 8px;
+    font-size: 16px;
+    color: red;
+}
+/* footer */
+footer {
+    height: 50px;
+    background: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
