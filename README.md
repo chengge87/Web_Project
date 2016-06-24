@@ -12,11 +12,11 @@
 5. 总结：冯伟
 
 ###目录：
-Task2: 项目建议书；
-Task3：Web项目需求文档；
-Task4：Web应用建模；
-Task6：Web应用设计；
-Task7：Web应用构建；
-Task8：Web应用测试；
-presentation：PPT展示；
-others：项目源代码。
+-Task2: 项目建议书；
+-Task3：Web项目需求文档；
+-Task4：Web应用建模；
+-Task6：Web应用设计；
+-Task7：Web应用构建；
+-Task8：Web应用测试；
+-presentation：PPT展示；
+-others：项目源代码。
